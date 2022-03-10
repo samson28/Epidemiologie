@@ -1,0 +1,449 @@
+{
+    "Patient": [
+        {
+            "nom": "BADAYODI",
+            "prenom": "Samson",
+            "age": 21,
+            "adresse": "Lome",
+            "type_cas": "Cas contact",
+            "sympthome": [
+                "toux",
+                "fievre"
+            ],
+            "diagnostic": [
+                "Corona"
+            ],
+            "traitement": [
+                "anticorona"
+            ],
+            "date": "2022-02-04 10:10:18.646407",
+            "id": 1
+        },
+        {
+            "nom": "SOHENOU",
+            "prenom": "Kevin",
+            "age": 20,
+            "adresse": "Tsévié",
+            "type_cas": "Cas confirmé",
+            "sympthome": [
+                "diarhée",
+                "vomissements"
+            ],
+            "diagnostic": [
+                "Cholera"
+            ],
+            "traitement": [
+                "anticholera"
+            ],
+            "date": "2022-02-04 10:10:18.661228",
+            "id": 2
+        },
+        {
+            "nom": "ESIAKU",
+            "prenom": "Donnée",
+            "age": 20,
+            "adresse": "Tsevié",
+            "type_cas": "Cas contact",
+            "sympthome": [
+                "douleur",
+                "perte"
+            ],
+            "diagnostic": [
+                "SIDA"
+            ],
+            "traitement": [
+                "anti retro viro"
+            ],
+            "date": "2022-02-04 10:10:18.680150",
+            "id": 3
+        },
+        {
+            "nom": "LABAH",
+            "prenom": "Esaie",
+            "age": 19,
+            "adresse": "Lome",
+            "type_cas": "Cas contact",
+            "sympthome": [
+                "maux de ventre"
+            ],
+            "diagnostic": [
+                "Cholera"
+            ],
+            "traitement": [
+                "anticholera"
+            ],
+            "date": "2022-02-04 10:10:18.687044",
+            "id": 4
+        },
+        {
+            "nom": "LARE",
+            "prenom": "Bilal",
+            "age": 21,
+            "adresse": "Lome",
+            "type_cas": "Cas contact",
+            "sympthome": [
+                "iritation"
+            ],
+            "diagnostic": [
+                "rougeole"
+            ],
+            "traitement": [
+                "selaver"
+            ],
+            "date": "2022-02-04 10:10:18.703778",
+            "id": 5
+        },
+        {
+            "nom": "AGOUDA",
+            "prenom": "Kurtys",
+            "age": 22,
+            "adresse": "Lome",
+            "type_cas": "Cas confirme",
+            "sympthome": [
+                "toux aigu"
+            ],
+            "diagnostic": [
+                "Corona"
+            ],
+            "traitement": [
+                "anticorona"
+            ],
+            "date": "2022-02-04 10:10:18.716131",
+            "id": 6
+        },
+        {
+            "nom": "AKAKPO",
+            "prenom": "Amandine",
+            "age": 21,
+            "adresse": "Lome",
+            "type_cas": "Cas contact",
+            "sympthome": [
+                "toux seche"
+            ],
+            "diagnostic": [
+                "paludisme"
+            ],
+            "traitement": [
+                "antibiotique"
+            ],
+            "date": "2022-02-04 10:10:18.730308",
+            "id": 7
+        },
+        {
+            "nom": "BOUNDJA",
+            "prenom": "Claudia",
+            "age": 20,
+            "adresse": "Lome",
+            "type_cas": "Cas confirme",
+            "sympthome": [
+                "vomissemetns"
+            ],
+            "diagnostic": [
+                "SIDA"
+            ],
+            "traitement": [
+                "antiretroviro"
+            ],
+            "date": "2022-02-04 10:10:18.741656",
+            "id": 8
+        },
+        {
+            "nom": "MOTI",
+            "prenom": "Sephora",
+            "age": 20,
+            "adresse": "Lome",
+            "type_cas": "Cas contact",
+            "sympthome": [
+                "fievre",
+                "douleur"
+            ],
+            "diagnostic": [
+                "paludisme"
+            ],
+            "traitement": [
+                "antibiotique"
+            ],
+            "date": "2022-02-04 10:10:18.750371",
+            "id": 9
+        }
+    ],
+    "Covid": [
+        {
+            "nom": "COVID-19",
+            "ro": 3,
+            "taux_de_letalite": [
+                0.5,
+                1
+            ],
+            "agent_pathogenes": "SARS-Cov-2",
+            "mesures_de_lutte": [
+                "se laver rï¿½guliï¿½rement les mains ou utiliser une solution hydro-alcoolique",
+                "tousser ou ï¿½ternuer dans son coude ou dans un mouchoir",
+                "se moucher dans un mouchoir ï¿½ usage unique puis le jeter",
+                "ï¿½viter de se toucher le visage",
+                "respecter une distance d'au moins deux mï¿½tres avec les autres",
+                "saluer sans serrer la main et arrï¿½ter les embrassades",
+                "porter un masque chirurgical ou en tissu de catï¿½gorie 1 quand la distance de deux mï¿½tres ne peut pas ï¿½tre respectï¿½e",
+                "limiter au maximum ses contacts sociaux (6 personnes maximum)",
+                "aï¿½rer les piï¿½ces le plus souvent possible, au minimum quelques minutes toutes les heures",
+                "utiliser les outils numï¿½riques (application Tous anti-Covid)"
+            ],
+            "sympthï¿½mes": {
+                "net": [
+                    "La fiï¿½vre",
+                    "La toux sï¿½che",
+                    "Essoufflements",
+                    "Perte de l'odorat, perte du goï¿½t",
+                    "La fatigue",
+                    "Courbatures et douleurs musculaires",
+                    "Diarrhï¿½es, nausï¿½es",
+                    "Maux de gorge",
+                    "Maux de tï¿½te",
+                    "Conjonctivite, yeux irritï¿½s",
+                    "Eruptions cutanï¿½es",
+                    "Douleurs thoraciques"
+                ]
+            },
+            "moyen_de_propagation": [
+                "aï¿½rien"
+            ],
+            "date": "2020-01-09"
+        },
+        {
+            "nom": "OMICRON",
+            "ro": 0.1,
+            "taux_de_letalite": 0.5,
+            "agent_pathogenes": "covid 19",
+            "mesures_de_lutte": [
+                "laver les mains",
+                "pxzcipr",
+                "aecezrvr"
+            ],
+            "sympthome": [
+                "dpfpj",
+                "aifjre",
+                "uxieeni",
+                "dty"
+            ],
+            "moyen_de_propagation": [
+                "aerien",
+                "oieoei"
+            ],
+            "date": "2022-01-31"
+        }
+    ],
+    "Ebola": [
+        {
+            "nom": "EBOLA",
+            "ro": 2,
+            "taux_de_letalite": 53.56,
+            "agent_pathogenes": "Ebola",
+            "mesures_de_lutte": [
+                "Se laver les mains rï¿½guliï¿½rement ï¿½ lï¿½eau et au savon",
+                "Eviter d'ï¿½tre en contact avec des personnes malades, qui doivent ï¿½tre mis en quarantaine",
+                "Il ne faut pas toucher, embrasser ou mï¿½me laver une personne malade",
+                "Les soignants doivent porter blouses, gants, masques et lunettes. Et ne pas rï¿½utiliser les seringues",
+                "Une attention particuliï¿½re doit ï¿½tre portï¿½e lors des rites funï¿½raires puisque les personnes dï¿½cï¿½dï¿½es sont encore porteuses du virus et peuvent ï¿½tre contagieux",
+                "Apprendre ï¿½ ne pas porter sa main ï¿½ sa bouche ou ï¿½ ses yeux, portes dï¿½entrï¿½es du virus",
+                "Porter des gants et vï¿½tements de protection pour manipuler les animaux malades et leur chair",
+                "Rester vigilants chez les malades guï¿½ris qui peuvent encore transmettre le virus pendant 7 semaines. Ils doivent ï¿½viter les relations sexuelles pendant ce temps ou utiliser un prï¿½servatif."
+            ],
+            "sympthome": {
+                "net": [
+                    "Lï¿½apparition brutale d'une fiï¿½vre intense, accompagnï¿½e de frissons",
+                    "Une diarrhï¿½e",
+                    "Des vomissements",
+                    "Une fatigue extrï¿½mement intense",
+                    "Une perte dï¿½appï¿½tit importante (anorexie)"
+                ],
+                "facultatifs": [
+                    "maux de tï¿½te",
+                    "douleurs musculaires",
+                    "douleurs articulaires",
+                    "faiblesses",
+                    "irritation de la gorge",
+                    "douleurs abdominales"
+                ],
+                "grave": [
+                    "toux",
+                    "ï¿½ruption cutanï¿½e",
+                    "douleurs thoraciques",
+                    "yeux rouges",
+                    "insuffisance rï¿½nale et hï¿½patique",
+                    "hï¿½morragies internes et externes"
+                ]
+            },
+            "moyen_de_propagation": [
+                "contact de fluide corporel"
+            ],
+            "date": "1976-09-01"
+        }
+    ],
+    "SIDA": [
+        {
+            "nom": "SIDA",
+            "r0": 0.19,
+            "taux_de_letalite": [
+                0.5,
+                1
+            ],
+            "agent_pathogenes": "VIH",
+            "mesures_de_lutte": [
+                "les prï¿½servatifs masculins et fï¿½minins",
+                "lï¿½administration de mï¿½dicaments antirï¿½troviraux en guise de prophylaxie prï¿½exposition (PPrE)",
+                "la circoncision masculine mï¿½dicale volontaire",
+                "les interventions en faveur des changements de comportement pour la limitation du nombre de partenaires sexuels",
+                " lï¿½emploi dï¿½aiguilles et de seringues propres"
+            ],
+            "sympthï¿½mes": {
+                "net": [
+                    "une fiï¿½vre de plus de 38 ï¿½C ",
+                    "l'apparition de ganglions lymphatiques",
+                    "une pharyngite",
+                    "une ï¿½ruption de plaques rouges sur le corps et le visage",
+                    "des maux de tï¿½te, de ventre, des douleurs musculaires",
+                    "Courbatures et douleurs musculaires",
+                    "une diarrhï¿½e, des vomissements",
+                    "une perte de poids",
+                    "des ulcï¿½rations de la bouche ou des organes gï¿½nitaux "
+                ]
+            },
+            "moyen_de_propagation": [
+                "pï¿½nï¿½tration (anale ou vaginale) lors dï¿½un rapport sexuel",
+                "transfusion sanguine",
+                "partage dï¿½aiguilles contaminï¿½es",
+                "de la mï¿½re ï¿½ lï¿½enfant au cours de la grossesse, de lï¿½accouchement et de lï¿½allaitement"
+            ],
+            "date": "1983-01-01"
+        }
+    ],
+    "CHOLERA": [
+        {
+            "nom": "CHOLERA",
+            "ro": 2,
+            "taux_de_letalite": 53.56,
+            "agent_pathogenes": "bacille Vibrio cholerae. ",
+            "mesures_de_lutte": [
+                "Se laver les mains rï¿½guliï¿½rement ï¿½ lï¿½eau et au savon",
+                "Eviter le contact avec des personnes malades, qui doivent ï¿½tre mis en quarantaine",
+                "le traitement des eaux usï¿½es",
+                "la construction de latrines dans les zones de regroupement humains isolï¿½es des points d'eau potable",
+                "l'hygiï¿½ne alimentaire"
+            ],
+            "sympthome": {
+                "net": [
+                    "une diarrhï¿½e aqueuse abondante, mais sans douleur (selles riziformes)",
+                    "des vomissements de liquide clair",
+                    "des nausï¿½es."
+                ]
+            },
+            "moyen_de_propagation": [
+                "en ingï¿½rant de l'eau contaminï¿½e",
+                "en ingï¿½rant des aliments contaminï¿½s",
+                "en ingï¿½rant de maniï¿½re non intentionnelle les selles d'une personne infectï¿½e."
+            ],
+            "date": "1883-12-31"
+        }
+    ],
+    "Tuberculose": [
+        {
+            "nom": "TUBERCULOSE",
+            "ro": 3,
+            "taux_de_letalite": [
+                5,
+                7
+            ],
+            "agent_pathogenes": "Mycobacterium tuberculosis",
+            "mesures_de_lutte": [
+                "La vaccination par le BBCG",
+                "Isolement des patients contagieux"
+            ],
+            "sympthï¿½mes": {
+                "net": [
+                    "La Toux",
+                    "des douleurs thoraciques",
+                    "Un etat de faiblesse",
+                    "Une perte de poids",
+                    "La fievre",
+                    "des sueurs nocturnes"
+                ]
+            },
+            "moyen_de_propagation": [
+                "aï¿½rien"
+            ],
+            "date": "1679-12-31"
+        }
+    ],
+    "FIEVRE JAUNE": [
+        {
+            "nom": "FIEVRE JAUNE",
+            "r0": 3,
+            "taux_de_letalite": [
+                2,
+                6
+            ],
+            "agent_pathogenes": "arbovirus",
+            "mesures_de_lutte": [
+                " la prï¿½vention par vaccination",
+                " le repos, la rï¿½hydratation et lï¿½administration de mï¿½dicaments visant ï¿½ limiter la fiï¿½vre, les vomissements et la douleur"
+            ],
+            "sympthï¿½mes": {
+                "net": [
+                    "fiï¿½vre, frissons, douleurs musculaires et maux de tï¿½te",
+                    "une grippe, une dengue ou un paludisme",
+                    " lï¿½apparition dï¿½un syndrome hï¿½morragique avec vomissement de sang noirï¿½tre",
+                    "un ictï¿½re qui donne son nom ï¿½ la maladie et de troubles rï¿½naux"
+                ]
+            },
+            "moyen_de_propagation": [
+                "piqï¿½re de moustiques appartenant aux genres Aedes et Haemagogus"
+            ],
+            "date": "1927-12-31"
+        }
+    ],
+    "ROUGEOLE": [
+        {
+            "nom": "ROUGEOLE",
+            "ro": 18,
+            "taux_de_letalite": [
+                10
+            ],
+            "agent_pathogenes": "virus de la famille de Paramyxoviridae. ",
+            "mesures_de_lutte": [
+                " le vaccin rougeole-oreillons-rubï¿½ole (ROR) "
+            ],
+            "sympthome": {
+                "net": [
+                    "fiï¿½vre, toux",
+                    "ï¿½coulement nasal",
+                    "yeux rouges",
+                    "somnolence"
+                ]
+            },
+            "moyen_de_propagation": [
+                "se transmet trï¿½s facilement par la toux",
+                "se transmet par les ï¿½ternuements et les sï¿½crï¿½tions nasales"
+            ],
+            "date": "1912-12-31"
+        }
+    ],
+    "rougeole": [
+        {
+            "nom": "rougeole",
+            "ro": 0.123,
+            "taux_de_letalite": 125.0,
+            "agent_pathogenes": "adefr",
+            "moyen de prevention": [
+                "qs",
+                "sdf",
+                "azer"
+            ],
+            "sympthï¿½mes": [
+                "ok",
+                "nbhg",
+                "pmlo"
+            ],
+            "date": "2022-01-31 09:25:55.899234"
+        }
+    ]
+}

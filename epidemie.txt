@@ -1,0 +1,25 @@
+
+**** pour commencer creer le fichier json avec :
+
+    Epidemiologie.create_json_file()
+
+**** creer des objets avec :
+    Covid()
+    Ebola()
+    Sida()
+    Cholera()
+    Tuberculose()
+    FIEVRE JAUNE()
+    ROUGEOLE()
+    Patient()
+
+**** les differentes fonctions 
+    <nom de la classe>.save(<objet>) : pour enregistrer les informations de l'objet dans le fichier json
+    <nom de la classe>.all() : pour recuperer toutes les occurence d'objet de la classe en question
+    Epidemiologie.all(type) : toutes les information contenu dans la clé(type)
+    Epidemiologie.alls() : pour recuperer toutes les information stockées dans le fichier json
+    Epidemiologie.enregistrer(<objet>,type) : enregistre les epidémies et les patients a l'endroit approprié grace au type et a l'objet
+    Epidemiologie.enregistrer2(<{}>,type) : enregistre les epidémies  a l'endroit approprié grace au type  et a un dictionnaire qui contient un variant
+    Epidemiologie.add(<{}>,<nom de l'épidémie>) : enregistre une nouvelle épidémie
+    Epidemiologie.charger(<chemin d'access au fichier exel>) : enregistre plusieurs patients depuis un fichier exel
+
